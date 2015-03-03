@@ -1,0 +1,137 @@
+2015-03-02 20:44:59 ERROR Calculator:173 - java.lang.IllegalArgumentException: Paranthesis not matching
+2015-03-02 20:45:48 FATAL Calculator:173 - java.lang.IllegalArgumentException: Paranthesis not matching
+2015-03-02 20:51:48 FATAL Calculator:170 - Paranthesis not matching
+2015-03-02 20:52:25 FATAL Calculator:173 - java.lang.IllegalArgumentException: Paranthesis not matching
+2015-03-02 20:56:32 FATAL Calculator:170 - Paranthesis not matching
+2015-03-02 20:56:51 FATAL Calculator:170 - Paranthesis not matching
+2015-03-02 20:57:01 FATAL Calculator:174 - java.lang.IllegalArgumentException: Paranthesis not matching
+2015-03-02 20:57:53 ERROR Calculator:170 - errot here
+2015-03-02 20:58:39 ERROR Calculator:170 - errot here
+2015-03-02 21:00:26 ERROR Calculator:170 - errot here
+2015-03-02 21:01:07 ERROR Calculator:143 - errot here
+2015-03-02 21:01:07 ERROR Calculator:143 - errot here
+2015-03-02 21:01:07 ERROR Calculator:143 - errot here
+2015-03-02 21:01:07 ERROR Calculator:170 - errot here
+2015-03-02 23:27:21 ERROR Calculator:181 - errot here
+2015-03-02 23:37:28 DEBUG Calculator:274 - Let Expression: Label = a, Expr1 = add(a,2), Expr2 = null
+2015-03-02 23:37:46 DEBUG Calculator:274 - Let Expression: Label = a, Expr1 = add(a,2), Expr2 = null
+2015-03-02 23:38:00 DEBUG Calculator:274 - Let Expression: Label = a, Expr1 = 1, Expr2 = add(a,2)
+2015-03-02 23:41:58 DEBUG Calculator:274 - Let Expression: Label = a, Expr1 = 1, Expr2 = add(a,2)
+2015-03-02 23:42:18 DEBUG Calculator:274 - Let Expression: Label = a, Expr1 = 5, Expr2 = add(a,a)
+2015-03-02 23:42:53 DEBUG Calculator:274 - Let Expression: Label = a, Expr1 = 5, Expr2 = let(b,mult(a,10),add(b,a))
+2015-03-02 23:42:53 DEBUG Calculator:274 - Let Expression: Label = b, Expr1 = mult(a,10), Expr2 = add(b,a)
+2015-03-02 23:44:09 DEBUG Calculator:274 - Let Expression: Label = a, Expr1 = let(b,10,add(b,b)), Expr2 = let(b,20,add(a,b))
+2015-03-02 23:44:09 DEBUG Calculator:274 - Let Expression: Label = b, Expr1 = 10, Expr2 = add(b,b)
+2015-03-02 23:44:09 DEBUG Calculator:274 - Let Expression: Label = b, Expr1 = 20, Expr2 = add(a,b)
+2015-03-02 23:47:54 DEBUG Calculator:299 - Let Expression: Label = a, Expr1 = let(b,10,add(b,b)), Expr2 = let(b,20,add(a,b))
+2015-03-02 23:47:54 DEBUG Calculator:299 - Let Expression: Label = b, Expr1 = 10, Expr2 = add(b,b)
+2015-03-02 23:47:54 DEBUG Calculator:257 - Expression is a number: Expr0 = 10
+2015-03-02 23:47:54 DEBUG Calculator:265 - ADD Expression: Expr0 = b, Expr1 = b
+2015-03-02 23:47:54 DEBUG Calculator:299 - Let Expression: Label = b, Expr1 = 20, Expr2 = add(a,b)
+2015-03-02 23:47:54 DEBUG Calculator:257 - Expression is a number: Expr0 = 20
+2015-03-02 23:47:54 DEBUG Calculator:265 - ADD Expression: Expr0 = a, Expr1 = b
+2015-03-02 23:55:41 DEBUG Calculator:306 - Let Expression: Label = a, Expr1 = let(b,10,add(b,b)), Expr2 = let(b,20,add(a,b))
+2015-03-02 23:55:41 DEBUG Calculator:306 - Let Expression: Label = b, Expr1 = 10, Expr2 = add(b,b)
+2015-03-02 23:55:41 DEBUG Calculator:264 - Expression is a number: Expr0 = 10
+2015-03-02 23:55:41 DEBUG Calculator:272 - ADD Expression: Expr0 = b, Expr1 = b
+2015-03-02 23:55:41 DEBUG Calculator:306 - Let Expression: Label = b, Expr1 = 20, Expr2 = add(a,b)
+2015-03-02 23:55:41 DEBUG Calculator:264 - Expression is a number: Expr0 = 20
+2015-03-02 23:55:41 DEBUG Calculator:272 - ADD Expression: Expr0 = a, Expr1 = b
+2015-03-02 23:55:50 ERROR Calculator:344 - java.lang.IllegalArgumentException: Input argument not formed properly. Correct input format: java Calculator "add(1, 2)"
+2015-03-02 23:55:50 ERROR Calculator:332 - java.lang.IllegalArgumentException: The variable in let is not found
+2015-03-02 23:57:36 ERROR Calculator:344 - java.lang.IllegalArgumentException: Input argument not formed properly. Correct input format: java Calculator "add(1, 2)"
+2015-03-02 23:59:46 ERROR Calculator:346 - java.lang.IllegalArgumentException: Input argument not formed properly. Correct input format: java Calculator "add(1, 2)"
+2015-03-02 23:59:57 ERROR Calculator:198 - java.lang.StringIndexOutOfBoundsException: String index out of range: -25
+2015-03-02 23:59:57 ERROR Calculator:334 - java.lang.StringIndexOutOfBoundsException: String index out of range: -25
+2015-03-03 00:01:13 ERROR Calculator:198 - java.lang.StringIndexOutOfBoundsException: String index out of range: -25
+2015-03-03 00:01:13 ERROR Calculator:334 - java.lang.StringIndexOutOfBoundsException: String index out of range: -25
+2015-03-03 00:01:46 DEBUG Calculator:308 - Let Expression: Label = a, Expr1 = let(b,10,add(b,b)), Expr2 = let(b,20,add(a,b))
+2015-03-03 00:01:46 DEBUG Calculator:308 - Let Expression: Label = b, Expr1 = 10, Expr2 = add(b,b)
+2015-03-03 00:01:46 DEBUG Calculator:266 - Expression is a number: Expr0 = 10
+2015-03-03 00:01:46 DEBUG Calculator:274 - ADD Expression: Expr0 = b, Expr1 = b
+2015-03-03 00:01:46 DEBUG Calculator:308 - Let Expression: Label = b, Expr1 = 20, Expr2 = add(a,b)
+2015-03-03 00:01:46 DEBUG Calculator:266 - Expression is a number: Expr0 = 20
+2015-03-03 00:01:46 DEBUG Calculator:274 - ADD Expression: Expr0 = a, Expr1 = b
+2015-03-03 00:02:54 DEBUG Calculator:308 - Let Expression: Label = a, Expr1 = 5, Expr2 = add(a,a)
+2015-03-03 00:02:54 DEBUG Calculator:266 - Expression is a number: Expr0 = 5
+2015-03-03 00:02:54 DEBUG Calculator:274 - ADD Expression: Expr0 = a, Expr1 = a
+2015-03-03 00:03:02 ERROR Calculator:198 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:03:02 ERROR Calculator:334 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:05:34 ERROR Calculator:198 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:05:34 DEBUG Calculator:239 - let label = a
+2015-03-03 00:05:34 DEBUG Calculator:247 - let expr1 = 5
+2015-03-03 00:05:34 ERROR Calculator:344 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:06:16 ERROR Calculator:198 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:06:16 DEBUG Calculator:239 - let label = a
+2015-03-03 00:06:16 DEBUG Calculator:247 - let expr1 = 5
+2015-03-03 00:06:16 ERROR Calculator:344 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:07:48 DEBUG Calculator:136 - let label = a
+2015-03-03 00:07:48 DEBUG Calculator:144 - let valueExprName = 5
+2015-03-03 00:07:48 ERROR Calculator:210 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:07:48 DEBUG Calculator:251 - let label = a
+2015-03-03 00:07:48 DEBUG Calculator:259 - let expr1 = 5
+2015-03-03 00:07:48 ERROR Calculator:356 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:10:47 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:10:47 DEBUG Calculator:73 - prefix value = 4
+2015-03-03 00:10:47 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:10:47 DEBUG Calculator:143 - let label = a
+2015-03-03 00:10:47 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:10:47 DEBUG Calculator:73 - prefix value = 6
+2015-03-03 00:10:47 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:10:47 DEBUG Calculator:151 - let valueExprName = 5
+2015-03-03 00:10:47 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:10:47 DEBUG Calculator:73 - prefix value = 8
+2015-03-03 00:10:47 DEBUG Calculator:74 - delimiter = )
+2015-03-03 00:10:47 ERROR Calculator:217 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:10:47 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:10:47 DEBUG Calculator:73 - prefix value = 4
+2015-03-03 00:10:47 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:10:47 DEBUG Calculator:258 - let label = a
+2015-03-03 00:10:47 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:10:47 DEBUG Calculator:73 - prefix value = 6
+2015-03-03 00:10:47 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:10:47 DEBUG Calculator:266 - let expr1 = 5
+2015-03-03 00:10:47 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:10:47 DEBUG Calculator:73 - prefix value = 8
+2015-03-03 00:10:47 DEBUG Calculator:74 - delimiter = )
+2015-03-03 00:10:47 ERROR Calculator:363 - java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 4
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:14:41 DEBUG Calculator:143 - let label = a
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 6
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:14:41 DEBUG Calculator:151 - let valueExprName = 5
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 8
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = )
+2015-03-03 00:14:41 DEBUG Calculator:159 - let exprName = add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 4
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 6
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = )
+2015-03-03 00:14:41 ERROR Calculator:217 - java.lang.IllegalArgumentException: Paranthesis not matching
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 4
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:14:41 DEBUG Calculator:258 - let label = a
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 6
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:14:41 DEBUG Calculator:266 - let expr1 = 5
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = let(a,5,add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 8
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = )
+2015-03-03 00:14:41 DEBUG Calculator:273 - let expr2 = add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:337 - Let Expression: Label = a, Expr1 = 5, Expr2 = add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:295 - Expression is a number: Expr0 = 5
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 4
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = ,
+2015-03-03 00:14:41 DEBUG Calculator:72 - String expr = add(a,a)
+2015-03-03 00:14:41 DEBUG Calculator:73 - prefix value = 6
+2015-03-03 00:14:41 DEBUG Calculator:74 - delimiter = )
+2015-03-03 00:14:41 DEBUG Calculator:303 - ADD Expression: Expr0 = a, Expr1 = a
