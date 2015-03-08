@@ -1,8 +1,0 @@
-
-Overall I really enjoyed the assignment. I liked the implementation of let expression a lot, particuarly the variable scoping.
-
-I have spent a total of 8 hours on the assignement...including two hours on maven and logger
-
-I though it could have been better and simpler to use tools to have the lexer tokenize the symbols and to have a parser tool parse the input string.
-
-'mvn package' should build the assignement.
